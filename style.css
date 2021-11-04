@@ -4,6 +4,8 @@
     --bgColor: #eeeeee;
     --accentColor: #1F1BB8;
     --font: 'Roboto', sans-serif;
+    --hoverColor: #1F1B90
+
 }
 
 body{
@@ -73,6 +75,6 @@ h1{
 }
 
 .link:hover{
-    background-color: #1F1B90;
+    background-color: var(--hoverColor);
     color: #ffffff;
 }
